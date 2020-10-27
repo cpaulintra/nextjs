@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="stylesheet" href="https://rsms.me/inter/inter-display.css" />
       </Head>
 
-      <header className={styles.header}>
+      <nav className={styles.header}>
         <h1 className={styles.title}>
           Test <a href="https://nextjs.org">Link</a>
         </h1>
