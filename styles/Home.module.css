@@ -117,9 +117,9 @@
   text-decoration: none;
   border: 2px solid #eaeaea;
   border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease, box-shadow 0.2s ease 0s;
+  transition: color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
   background-color: white;
-  box-shadow: 0 5px 25px rgba(0,0,0,0.05);
+  box-shadow: 0 0px 25px rgba(0,0,0,0.05);
 }
 
 .card:hover,
@@ -127,7 +127,7 @@
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
-  box-shadow: 0 5px 25px rgba(0,112,243,0.4);
+  box-shadow: 0 0px 25px rgba(0,112,243,0.3);
 }
 
 .card h3 {
