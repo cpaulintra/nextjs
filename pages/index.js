@@ -11,6 +11,17 @@ export default function Home() {
         <link rel="stylesheet" href="https://rsms.me/inter/inter-display.css">
       </Head>
 
+      <nav className={styles.header}>
+        <h1 className={styles.title}>
+          Test <a href="https://nextjs.org">Next.js!</a>
+        </h1>
+
+        <p className={styles.description}>
+          Get started by editing{' '}
+          <code className={styles.code}>pages/index.js</code>
+        </p>
+      </nav>
+
       <main className={styles.main}>
         <h1 className={styles.title}>
           Test <a href="https://nextjs.org">Next.js!</a>
