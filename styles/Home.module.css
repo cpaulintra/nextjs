@@ -41,9 +41,7 @@
   box-sizing: inherit;
 }
 
-element.style{
-  --full: var(--geist-page-width-with-margin);
-}
+
 
 .footer {
   width: 100%;
