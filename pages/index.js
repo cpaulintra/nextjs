@@ -11,15 +11,11 @@ export default function Home() {
         <link rel="stylesheet" href="https://rsms.me/inter/inter-display.css" />
       </Head>
 
-      <nav className={styles.header}>
+      <header className={styles.header}>
         <h1 className={styles.title}>
-          Test <a href="https://nextjs.org">Next.js!</a>
+          Test <a href="https://nextjs.org">Link</a>
         </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+        <p>Test 2</p>
       </nav>
 
       <main className={styles.main}>
