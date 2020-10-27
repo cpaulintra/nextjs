@@ -7,8 +7,8 @@ export default function Home() {
       <Head>
         <title>Intra</title>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Inter">
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+        <link rel="stylesheet" href="https://rsms.me/inter/inter-display.css">
       </Head>
 
       <main className={styles.main}>
@@ -59,8 +59,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          <img src="/vercel.svg" alt="Intra Logo" className={styles.logo} />
         </a>
       </footer>
     </div>
