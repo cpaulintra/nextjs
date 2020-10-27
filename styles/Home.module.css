@@ -33,10 +33,10 @@
   flex-direction: row;
   -ms-align-items: center;
   align-items: center;
-  width: var(--full);
+  width: 1048px;
   margin: auto;
-  padding-left: var(--geist-page-margin);
-  padding-right: var(--geist-page-margin);
+  padding-left: 24px;
+  padding-right: 24px;
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
 }
