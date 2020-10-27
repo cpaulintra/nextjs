@@ -103,8 +103,6 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
-  max-width: 800px;
   margin-top: 3rem;
 }
 
@@ -120,7 +118,9 @@
   transition: color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
   background-color: white;
   box-shadow: 0 0px 25px rgba(0,0,0,0.05);
-  background-image: url(https://www.apple.com/v/iphone/home/ao/images/overview/retail/why_apple__genwe8js9fee_large.jpg);
+  background-image: url(https://www.cornerstone-business.com/wp-content/uploads/2019/09/placeholder.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .card:hover,
