@@ -13,9 +13,10 @@ export default function Home() {
 
       <nav className={styles.header}>
         <h1 className={styles.title}>
-          Test <a href="https://nextjs.org">Link</a>
+          Intra <a href="https://nextjs.org">Link</a>
         </h1>
-        <p>Test 2</p>
+        <p><a href="https://nextjs.org">Link 1</a></p>
+        <p><a href="https://nextjs.org">Link 2</a></p>
       </nav>
 
       <main className={styles.main}>
