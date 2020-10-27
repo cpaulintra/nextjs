@@ -15,19 +15,34 @@
   align-items: center;
 }
 
-.header {
+.wrapper {
+  backdrop-filter: saturate(180%) blur(20px);
   position: sticky;
   top: 0;
   display: flex;
   justify-content: center;
-  left: 0;
   width: 100%;
   max-width: 100%;
-  height: 6rem;
-  z-index: 10;
   background-color: hsla(0,0,0,0.8);
-  backdrop-filter: saturate(180%) blur(20px);
   box-shadow: inset 0 -1px 0 0 rgba(0,0,0,0.1);
+  z-index: 10;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  -ms-align-items: center;
+  align-items: center;
+  width: var(--full);
+  margin: auto;
+  padding-left: var(--geist-page-margin);
+  padding-right: var(--geist-page-margin);
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+element.style{
+  --full: var(--geist-page-width-with-margin);
 }
 
 .footer {
