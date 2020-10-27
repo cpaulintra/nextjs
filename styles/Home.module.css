@@ -120,6 +120,7 @@
   transition: color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
   background-color: white;
   box-shadow: 0 0px 25px rgba(0,0,0,0.05);
+  background-image: url(https://www.apple.com/v/iphone/home/ao/images/overview/retail/why_apple__genwe8js9fee_large.jpg);
 }
 
 .card:hover,
