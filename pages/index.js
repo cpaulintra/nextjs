@@ -22,9 +22,9 @@ export default function Home() {
       </div>
 
       <main className={styles.main}>
-      <img src="https://www.apple.com/v/iphone/home/ao/images/overview/retail/why_apple__genwe8js9fee_large.jpg" alt="Photo">
         <h1 className={styles.title}>
           Text <a href="https://nextjs.org">Link</a>
+          <img src="https://www.apple.com/v/iphone/home/ao/images/overview/retail/why_apple__genwe8js9fee_large.jpg" alt="Photo">
         </h1>
 
         <p className={styles.description}>
