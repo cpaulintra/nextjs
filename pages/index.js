@@ -7,6 +7,8 @@ export default function Home() {
       <Head>
         <title>Intra</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Inter">
       </Head>
 
       <main className={styles.main}>
@@ -51,6 +53,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
+      Copyright © 2020 Intra Inc. All rights reserved.
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
