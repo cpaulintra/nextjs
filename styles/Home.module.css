@@ -28,18 +28,7 @@
   z-index: 10;
 }
 
-.header {
-  display: flex;
-  flex-direction: row;
-  -ms-align-items: center;
-  align-items: center;
-  width: 1048px;
-  margin: auto;
-  padding-left: 24px;
-  padding-right: 24px;
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
-}
+
 
 
 
