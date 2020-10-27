@@ -127,7 +127,7 @@
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
-  box-shadow: 0 5px 25px rgba(0,112,243,0.05);
+  box-shadow: 0 5px 25px rgba(0,112,243,0.25);
 }
 
 .card h3 {
