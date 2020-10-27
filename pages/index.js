@@ -11,7 +11,13 @@ export default function Home() {
         <link rel="stylesheet" href="https://rsms.me/inter/inter-display.css" />
       </Head>
 
-
+      <div className={styles.wrapper}>
+        <header className={styles.header}>
+          <h1 className={styles.title}>
+            Intra <a href="https://nextjs.org">Link</a>
+          </h1>
+        </header>
+      </div>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
