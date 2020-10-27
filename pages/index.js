@@ -12,12 +12,12 @@ export default function Home() {
       </Head>
 
       <div className={styles.wrapper}>
-      <header className={styles.header} style="--full:var(geist-page-width-with-margin;)">
-        <h1 className={styles.title}>
-          Intra <a href="https://nextjs.org">Link</a>
-        </h1>
-        <p><a href="https://nextjs.org">Link 1</a></p>
-        <p><a href="https://nextjs.org">Link 2</a></p>
+        <header className={styles.header} style="--full:var(geist-page-width-with-margin;)">
+          <h1 className={styles.title}>
+            Intra <a href="https://nextjs.org">Link</a>
+          </h1>
+          <p><a href="https://nextjs.org">Link 1</a></p>
+          <p><a href="https://nextjs.org">Link 2</a></p>
         </header>
       </div>
 
