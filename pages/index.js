@@ -7,8 +7,8 @@ export default function Home() {
       <Head>
         <title>Intra</title>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-        <link rel="stylesheet" href="https://rsms.me/inter/inter-display.css">
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+        <link rel="stylesheet" href="https://rsms.me/inter/inter-display.css" />
       </Head>
 
       <nav className={styles.header}>
