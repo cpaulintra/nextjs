@@ -16,6 +16,8 @@ export default function Home() {
           <h1 className={styles.title}>
             Intra <a href="https://nextjs.org">Link</a>
           </h1>
+          <p><a href="https://nextjs.org">Link 1</a></p>
+          <p><a href="https://nextjs.org">Link 2</a></p>
         </header>
       </div>
 
